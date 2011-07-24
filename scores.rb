@@ -15,7 +15,8 @@ get '/scores' do
          COUNT(killer) as kills,
          SUM(headshot) as headshots
          FROM kills
-         GROUP BY killer"
+         GROUP BY killer
+         ORDER BY kills DESC"
 
   db = SQLite3::Database.new("cs.db")
   db.results_as_hash = true
