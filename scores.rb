@@ -11,23 +11,17 @@ end
 
 get '/scores' do
   # This query will fetch ALL statistics from the DB
-  sql = "select * from kills;"
+  sql = "SELECT killer,
+         COUNT(killer) as kills,
+         SUM(headshot) as headshots
+         FROM kills
+         GROUP BY killer"
 
   db = SQLite3::Database.new("cs.db")
   db.results_as_hash = true
 
-  result = ""
-  db.execute(sql) do |row|
-    result << "#{row['killer']} killed #{row['killed']} with a #{row['weapon']}"
-    result << row['headshot'] == 1 ? " IN THE HEAD!" : ""
-  end
+  @stats = db.execute(sql)
 
-  return result
+  haml :scores
 
 end
-
-#get '/view/:stuff' do
-  #haml :view
-#end
-
-
