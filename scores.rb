@@ -33,6 +33,7 @@ end
 get '/daemon' do
   @result = `ruby daemon.rb status`
   @title = "Daemon Control"
+  #@jquery = "alert('yea');"
   haml :daemon
 end
 
