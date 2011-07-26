@@ -1,7 +1,4 @@
-%h1 Counter Strike Score Board
-%hr/
-
-%table{:border => "1"}
+%table.scores
   %tr
     %th Player
     %th Kills
@@ -9,9 +6,9 @@
 
   - @stats.each do |row|
     %tr
-      %td= row["killer"]
+      %td.first= row["killer"]
       %td= row["kills"]
       %td= row["headshots"]
 
--# This should be replaced with an ajax call
+-# TODO: This should be replaced with an ajax call
 %meta{"http-equiv" => "refresh", "content" => "2"}

@@ -1,0 +1,12 @@
+%html
+  %head
+    %link(rel="stylesheet" type="text/css" href="style.css")
+    %title= @title
+  %body
+    %div.outer
+      %div.header
+        %h1 Counter Strike Scoreboard
+        %h2= @title
+      %div.navbar= haml :navbar
+      %div.body
+        = yield

@@ -1,0 +1,53 @@
+body {
+  background-color: #1F1F1F;
+  color: #AAA;
+}
+
+.header {
+  h1,h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+  }
+}
+
+.outer {
+  border: 1px solid yellow;
+  width: 1000px;
+  margin: 50px auto 100px auto;
+
+}
+
+.body {
+  padding: 40px 40px 100px 40px;
+}
+
+.navbar {
+  border-top: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+  text-align: center;
+  padding: 10px;
+}
+
+table.scores{
+  margin: 0px auto;
+  th {
+    border-bottom: 1px solid white;
+    color: white;
+    width: 125px;
+  }
+  td {
+    color: grey;
+    text-align: center;
+  }
+  td.first {
+    width: 250px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+a {
+  color: #6ac;
+}

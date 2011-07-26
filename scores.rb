@@ -24,6 +24,7 @@ get '/scores' do
   db.results_as_hash = true
 
   @stats = db.execute(sql)
+  @title = "Leader Board"
   haml :scores
 end
 
@@ -31,6 +32,7 @@ end
 # The user can control the daemon from here
 get '/daemon' do
   @result = `ruby daemon.rb status`
+  @title = "Daemon Control"
   haml :daemon
 end
 
@@ -44,4 +46,9 @@ end
 get '/daemon/:action' do
   @result = `ruby daemon.rb #{params[:action]}`
   redirect to('/daemon')
+end
+
+# Use SCSS for the stylesheet
+get '/style.css' do
+  scss :style
 end
