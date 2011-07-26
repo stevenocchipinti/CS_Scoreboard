@@ -13,7 +13,7 @@ class MyServer < DaemonSpawn::Base
     port = 1234
 
     # Connect to the DB to request a hash of results later
-    db = SQLite3::Database.new("cs.db")
+    db = SQLite3::Database.new("db/cs.db")
     db.results_as_hash = true
 
     # Start listening for UDP data

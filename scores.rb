@@ -18,7 +18,7 @@ get '/scores' do
          GROUP BY killer
          ORDER BY kills DESC"
 
-  db = SQLite3::Database.new("cs.db")
+  db = SQLite3::Database.new("db/cs.db")
   db.results_as_hash = true
 
   @stats = db.execute(sql)
