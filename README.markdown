@@ -11,11 +11,6 @@ This started out as a joke at a LAN party and I thought the idea was a good
 simple app for me to give Sinatra a go.
 
 
-## Dependencies
-
-Run `bundle install` to fetch all the dependencies.
-
-
 ## The basics
 
 This app is broken into 3 parts:
@@ -44,8 +39,10 @@ auto-updating scoreboard using AJAX.
 ## Installation and Usage
 
 To get up and running:
-    bundle install
-    bundle exec ruby scores.rb
+```
+bundle install
+bundle exec ruby scores.rb
+```
 When you browse to root URL of the app it will start the daemon process in the background.
 You can check the status of the daemon with the `/daemon` path.
 You should then be redirected to the `/scores` path where the scoreboard will
