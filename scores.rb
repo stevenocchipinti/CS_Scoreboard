@@ -26,8 +26,9 @@ get '/scores' do
   @stats = db.execute(sql)
 
   # Use jquery to auto-update
-  @jquery = "setInterval(function() {
-               $('#body').fadeOut('fast').load('/scores').fadeIn('fast');
+  # To stop the auto-update, use: clearInterval(autoUpdateId)
+  @jquery = "var autoUpdateId = setInterval(function() {
+               $('#body').load('/scores');
              }, 2000);"
 
   @title = "Leader Board"

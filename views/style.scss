@@ -19,7 +19,7 @@ body {
 }
 
 #body {
-  padding: 40px 40px 100px 40px;
+  padding: 40px 40px 60px 40px;
 }
 
 #navbar {
@@ -46,7 +46,14 @@ table.scores{
     color: white;
     font-weight: bold;
   }
+  td.timestamp {
+    font-size: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    height: 30px;
+  }
 }
+
 
 a {
   color: #6ac;
