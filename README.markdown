@@ -13,16 +13,22 @@ simple app for me to give Sinatra a go.
 
 ## Dependencies
 
-The following gems are required to use this app:
-
-* sinatra
-* daemon-spawn
-* sqlite3
+Run `bundle install` to fetch all the dependencies.
 
 
 ## The basics
 
-This app is broken into 2 parts:
+This app is broken into 3 parts:
+
+### Counter Strike server
+
+A Counter Strike server can be configured to send log data to a server
+listening on a pre-defined UDP port.
+To accomplish this, the following commands need to be executed in the server console:
+    log on
+    logaddress_add <server>:<port>
+I would recommend putting these commands in the servers `server.cfg` file to be
+automatically executed when the server is started.
 
 ### daemon.rb
 
@@ -37,13 +43,12 @@ auto-updating scoreboard.
 Currently the auto-update is accomplished with a `<meta>` tag, but will
 eventually be AJAX based.
 
-
 ## Installation and Usage
 
-Ensure the required gems are installed and use this to start Sinatra:
-    ruby -rubygems scores.rb
-When you browse to the app for the first time, it should start the daemon
-process in the background.
+To get up and running:
+    bundle install
+    bundle exec ruby scores.rb
+When you browse to root URL of the app it will start the daemon process in the background.
 You can check the status of the daemon with the `/daemon` path.
 You should then be redirected to the `/scores` path where the scoreboard will
-be visible.
+be displayed.
