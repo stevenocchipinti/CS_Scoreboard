@@ -20,12 +20,19 @@ get '/scores' do
          GROUP BY killer
          ORDER BY kills DESC"
 
+  # Connect to the database and execute the query
   db = SQLite3::Database.new("db/cs.db")
   db.results_as_hash = true
-
   @stats = db.execute(sql)
+
+  # Use jquery to auto-update
+  @jquery = "setInterval(function() {
+               $('#body').fadeOut('fast').load('/scores').fadeIn('fast');
+             }, 2000);"
+
   @title = "Leader Board"
-  haml :scores
+  # If AJAX request, dont render the layout
+  haml :scores, :layout => (request.xhr? ? false : :layout)
 end
 
 
@@ -33,7 +40,6 @@ end
 get '/daemon' do
   @result = `ruby daemon.rb status`
   @title = "Daemon Control"
-  #@jquery = "alert('yea');"
   haml :daemon
 end
 

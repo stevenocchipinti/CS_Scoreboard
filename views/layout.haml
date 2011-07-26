@@ -4,12 +4,12 @@
     %link(rel="stylesheet" type="text/css" href="style.css")
     %title= @title
   %body
-    %div.outer
-      %div.header
+    %div#outer
+      %div#header
         %h1 Counter Strike Scoreboard
         %h2= @title
-      %div.navbar= haml :navbar
-      %div.body
+      %div#navbar= haml :navbar
+      %div#body
         = yield
     - if @jquery
       %script(src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js")

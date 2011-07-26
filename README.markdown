@@ -38,10 +38,8 @@ If there is a match, that event is written to an SQLite3 database.
 
 ### scores.rb
 
-`scores.rb` is a Sinatra app that reads the database and produces an
-auto-updating scoreboard.
-Currently the auto-update is accomplished with a `<meta>` tag, but will
-eventually be AJAX based.
+`scores.rb` is a Sinatra app that reads the database and presents an
+auto-updating scoreboard using AJAX.
 
 ## Installation and Usage
 

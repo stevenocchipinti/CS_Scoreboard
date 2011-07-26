@@ -3,7 +3,7 @@ body {
   color: #AAA;
 }
 
-.header {
+#header {
   h1,h2 {
     text-align: center;
     font-family: sans-serif;
@@ -11,18 +11,18 @@ body {
   }
 }
 
-.outer {
+#outer {
   border: 1px solid yellow;
   width: 1000px;
   margin: 50px auto 100px auto;
 
 }
 
-.body {
+#body {
   padding: 40px 40px 100px 40px;
 }
 
-.navbar {
+#navbar {
   border-top: 1px solid yellow;
   border-bottom: 1px solid yellow;
   text-align: center;
