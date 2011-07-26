@@ -39,10 +39,10 @@ auto-updating scoreboard using AJAX.
 ## Installation and Usage
 
 To get up and running:
-```
+<pre>
 bundle install
 bundle exec ruby scores.rb
-```
+</pre>
 When you browse to root URL of the app it will start the daemon process in the background.
 You can check the status of the daemon with the `/daemon` path.
 You should then be redirected to the `/scores` path where the scoreboard will
