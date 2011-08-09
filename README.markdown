@@ -31,9 +31,9 @@ automatically executed when the server is started.
 When it receives data, it will run them through some known regular expressions.
 If there is a match, that event is written to an SQLite3 database.
 
-### scores.rb
+### scoreboard.rb
 
-`scores.rb` is a Sinatra app that reads the database and presents an
+`scoreboard.rb` is a Sinatra app that reads the database and presents an
 auto-updating scoreboard using AJAX.
 
 ## Installation and Usage
@@ -41,9 +41,19 @@ auto-updating scoreboard using AJAX.
 To get up and running:
 <pre>
 bundle install
-bundle exec ruby scores.rb
+bundle exec ruby scoreboard.rb
 </pre>
-When you browse to root URL of the app it will start the daemon process in the background.
+When you browse to root URL of the app it will start the daemon process in the
+background.
 You can check the status of the daemon with the `/daemon` path.
 You should then be redirected to the `/scores` path where the scoreboard will
 be displayed.
+
+## Adding CS-Scoreboard as a service on Linux
+
+If you decide you want to run this permanently on your server (such as for a
+dedicated gaming vps or something) there is a `wrapper.rb` script included that
+handles the basic `start`, `stop` and `status` commands that you can add to
+your system service configuration.
+This will control the Sinatra app which provides a GUI for controlling the
+background `daemon.rb` process.

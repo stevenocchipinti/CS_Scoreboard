@@ -1,17 +1,22 @@
 # CS-ScoreBoard
-
-# To run without Thin: ruby -rubygems scores.rb
-# To run with Thin:    bundle exec ruby scores.rb
+#
+# A Sinatra app to display the scoreboard!
+#
+# To run without Thin: ruby -rubygems scoreboard.rb
+# To run with Thin:    bundle exec ruby scoreboard.rb
 
 require 'sinatra'
 require 'sqlite3'
 
+# When browsing to the root url, start the daemon first
 get '/' do
   redirect to('/daemon/init')
 end
 
+# ------------------------------------------------------------------------------
+#  The Scoreboard
+# ------------------------------------------------------------------------------
 
-# The scoreboard
 get '/scores' do
   # This query will fetch ALL statistics from the DB
   sql = "SELECT killer,
@@ -37,25 +42,34 @@ get '/scores' do
   haml :scores, :layout => (request.xhr? ? false : :layout)
 end
 
+# ------------------------------------------------------------------------------
+#  Daemon Control
+# ------------------------------------------------------------------------------
+
+daemon = daemon.rb
 
 # The user can control the daemon from here
 get '/daemon' do
-  @result = `ruby daemon.rb status`
+  @result = `ruby #{daemon} status`
   @title = "Daemon Control"
   haml :daemon
 end
 
 # When the app starts up '/' should redirect to this
 get '/daemon/init' do
-  @result = `ruby daemon.rb start`
+  @result = `ruby #{daemon} start`
   redirect to('/scores')
 end
 
 # This handles executing the daemons actions
 get '/daemon/:action' do
-  @result = `ruby daemon.rb #{params[:action]}`
+  @result = `ruby #{daemon} #{params[:action]}`
   redirect to('/daemon')
 end
+
+# ------------------------------------------------------------------------------
+#  Other
+# ------------------------------------------------------------------------------
 
 # Use SCSS for the stylesheet
 get '/style.css' do

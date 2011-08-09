@@ -1,8 +1,20 @@
+# CS-ScoreBoard Log Parsing Daemon
+#
+# This daemon will listen for incoming log data from the server.
+# Each log line will be tested again a regex for known events.
+# When a known event is parsed, it is stored in the database.
+#
+# You do not need to start this daemon manually, as the accompanying Sinatra
+# app will start it upon browsing the root url, or using the menu.
+# If you do need to control it manually, you can like this:
+#   ruby daemon.rb {start|stop|status}
+#
+
 require 'daemon_spawn'
 require 'sqlite3'
 require 'socket'
 
-class MyServer < DaemonSpawn::Base
+class Daemon < DaemonSpawn::Base
 
   def start(args)
     # Process command-line args to get the logfile
@@ -85,7 +97,7 @@ class MyServer < DaemonSpawn::Base
 
 end
 
-MyServer.spawn!(:log_file => 'cs-scoreboard.log',
-                :pid_file => 'cs-scoreboard.pid',
-                :sync_log => true,
-                :working_dir => File.dirname(__FILE__))
+Daemon.spawn!(:log_file => 'daemon.log',
+              :pid_file => 'daemon.pid',
+              :sync_log => true,
+              :working_dir => File.dirname(__FILE__))
