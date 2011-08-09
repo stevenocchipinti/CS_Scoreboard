@@ -29,7 +29,7 @@ get '/scores' do
   # To stop the auto-update, use: clearInterval(autoUpdateId)
   @jquery = "var autoUpdateId = setInterval(function() {
                $('#body').load('/scores');
-             }, 2000);"
+             }, 1000);"
 
   @title = "Leader Board"
   # If AJAX request, dont render the layout
