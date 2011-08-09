@@ -46,7 +46,7 @@ end
 #  Daemon Control
 # ------------------------------------------------------------------------------
 
-daemon = daemon.rb
+daemon = "daemon.rb"
 
 # The user can control the daemon from here
 get '/daemon' do
