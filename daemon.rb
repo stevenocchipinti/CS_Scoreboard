@@ -16,9 +16,9 @@ class MyServer < DaemonSpawn::Base
     db = SQLite3::Database.new("db/cs.db")
     db.results_as_hash = true
 
-    # Start listening for UDP data
+    # Start listening for UDP data (only loopback to avoid cheaters)
     sock = UDPSocket.new
-    sock.bind("0.0.0.0", port)
+    sock.bind("127.0.0.1", port)
 
     time = Time.new.strftime "%d/%m/%Y@%H:%M:%S"
     puts "#{time}: Log parsing daemon listening on UDP #{port}"
