@@ -15,7 +15,7 @@
 
 require 'daemon_spawn'
 
-class Wrapper < DaemonSpawn::Base
+class CSScoreboard < DaemonSpawn::Base
 
   def start(args)
     # Start the Sinatra app
@@ -27,7 +27,7 @@ class Wrapper < DaemonSpawn::Base
 
 end
 
-Wrapper.spawn!(:log_file => 'cs-scoreboard.log',
-               :pid_file => 'cs-scoreboard.pid',
-               :sync_log => true,
-               :working_dir => File.dirname(__FILE__))
+CSScoreboard.spawn!(:log_file => 'cs-scoreboard.log',
+                    :pid_file => 'cs-scoreboard.pid',
+                    :sync_log => true,
+                    :working_dir => File.dirname(__FILE__))
