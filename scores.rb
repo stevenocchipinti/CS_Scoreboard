@@ -1,6 +1,7 @@
 # CS-ScoreBoard
 
-# To run: ruby -rubygems scores.rb
+# To run without Thin: ruby -rubygems scores.rb
+# To run with Thin:    bundle exec ruby scores.rb
 
 require 'sinatra'
 require 'sqlite3'
