@@ -24,6 +24,7 @@ To accomplish this, the following commands need to be executed in the server con
     logaddress_add <server>:<port>
 I would recommend putting these commands in the servers `server.cfg` file to be
 automatically executed when the server is started.
+Note: `localhost` and `127.0.0.1` will not work, see below.
 
 ### daemon.rb
 
@@ -57,3 +58,18 @@ handles the basic `start`, `stop` and `status` commands that you can add to
 your system service configuration.
 This will control the Sinatra app which provides a GUI for controlling the
 background `daemon.rb` process.
+
+## Logging statistics on localhost
+
+There is a bug in srcds where when the `logaddress_add` command contains either
+`localhost` or `127.0.0.1`, nothing is actually sent. The work around for this
+bug is to use a different `/etc/hosts` file entry for the loopback address.
+For example, if the hostname is `srcds`, `daemon.rb` should look like this:
+<pre>
+sock.bind("srcds", port)
+</pre>
+This works because by default the `/etc/hosts` file contains an entry like this:
+<pre>
+127.0.1.1	srcds
+</pre>
+If it doesn't have a entry based on the hostname, this needs to be added.

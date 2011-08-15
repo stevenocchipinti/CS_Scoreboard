@@ -30,7 +30,7 @@ class Daemon < DaemonSpawn::Base
 
     # Start listening for UDP data (only loopback to avoid cheaters)
     sock = UDPSocket.new
-    sock.bind("127.0.0.1", port)
+    sock.bind("srcds", port)
 
     time = Time.new.strftime "%d/%m/%Y@%H:%M:%S"
     puts "#{time}: Log parsing daemon listening on UDP #{port}"
