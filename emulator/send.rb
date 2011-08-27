@@ -2,7 +2,7 @@ require 'socket'
 
 # Configuration
 udphost = "127.0.0.1"
-udpport = 1111
+udpport = 1234
 udpflags = 0
 file = "test.log"
 
