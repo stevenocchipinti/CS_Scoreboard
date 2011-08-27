@@ -1,0 +1,352 @@
+L 08/20/2011 - 18:57:38: Log file started (file "logs/L0820011.log") (game "/opt/games/srcds/orangebox/cstrike") (version "4659")
+L 08/20/2011 - 18:57:38: World triggered "Round_Start"
+L 08/20/2011 - 18:57:38: World triggered "Round_Start"
+L 08/20/2011 - 18:57:41: "0x<2><STEAM_0:1:6302453><>" entered the game
+L 08/20/2011 - 18:57:42: "0x<2><STEAM_0:1:6302453><Unassigned>" joined team "CT"
+L 08/20/2011 - 18:58:10: "optiks<4><STEAM_0:1:1653><>" entered the game
+L 08/20/2011 - 18:58:11: World triggered "Restart_Round_(1_second)"
+L 08/20/2011 - 18:58:11: Team "CT" scored "0" with "1" players
+L 08/20/2011 - 18:58:11: Team "TERRORIST" scored "0" with "0" players
+L 08/20/2011 - 18:58:12: World triggered "Round_Start"
+L 08/20/2011 - 18:58:14: "optiks<4><STEAM_0:1:1653><Unassigned>" joined team "TERRORIST"
+L 08/20/2011 - 18:58:14: World triggered "Game_Commencing"
+L 08/20/2011 - 18:58:17: World triggered "Round_Start"
+L 08/20/2011 - 18:58:31: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "awp"
+L 08/20/2011 - 18:58:31: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 08/20/2011 - 18:58:31: Team "CT" scored "0" with "1" players
+L 08/20/2011 - 18:58:31: Team "TERRORIST" scored "1" with "1" players
+L 08/20/2011 - 18:58:31: World triggered "Round_End"
+L 08/20/2011 - 18:58:31: "optiks<4><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 18:58:38: World triggered "Round_Start"
+L 08/20/2011 - 18:58:39: "optiks<4><STEAM_0:1:1653><TERRORIST>" say "big map"
+L 08/20/2011 - 18:58:54: "optiks<4><STEAM_0:1:1653><TERRORIST>" say "i see you"
+L 08/20/2011 - 18:59:05: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<4><STEAM_0:1:1653><TERRORIST>" with "awp"
+L 08/20/2011 - 18:59:05: Team "CT" triggered "CTs_Win" (CT "1") (T "1")
+L 08/20/2011 - 18:59:05: Team "CT" scored "1" with "1" players
+L 08/20/2011 - 18:59:05: Team "TERRORIST" scored "1" with "1" players
+L 08/20/2011 - 18:59:05: World triggered "Round_End"
+L 08/20/2011 - 18:59:05: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 18:59:12: World triggered "Round_Start"
+L 08/20/2011 - 19:00:21: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "m249" (headshot)
+L 08/20/2011 - 19:00:21: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "2")
+L 08/20/2011 - 19:00:21: Team "CT" scored "1" with "1" players
+L 08/20/2011 - 19:00:21: Team "TERRORIST" scored "2" with "1" players
+L 08/20/2011 - 19:00:21: World triggered "Round_End"
+L 08/20/2011 - 19:00:21: "optiks<4><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:00:24: "0x<2><STEAM_0:1:6302453><CT>" say "lol"
+L 08/20/2011 - 19:00:28: World triggered "Round_Start"
+L 08/20/2011 - 19:00:28: "0x<2><STEAM_0:1:6302453><CT>" say "lol"
+L 08/20/2011 - 19:00:38: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "aug"
+L 08/20/2011 - 19:00:38: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "3")
+L 08/20/2011 - 19:00:38: Team "CT" scored "1" with "1" players
+L 08/20/2011 - 19:00:38: Team "TERRORIST" scored "3" with "1" players
+L 08/20/2011 - 19:00:38: World triggered "Round_End"
+L 08/20/2011 - 19:00:38: "optiks<4><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:00:45: World triggered "Round_Start"
+L 08/20/2011 - 19:00:46: "optiks<4><STEAM_0:1:1653><TERRORIST>" say "wow couldnt se crosshair on blue"
+L 08/20/2011 - 19:00:46: "0x<2><STEAM_0:1:6302453><CT>" say "i hate ths gun too :P"
+L 08/20/2011 - 19:01:05: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "sg552"
+L 08/20/2011 - 19:01:05: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "4")
+L 08/20/2011 - 19:01:05: Team "CT" scored "1" with "1" players
+L 08/20/2011 - 19:01:05: Team "TERRORIST" scored "4" with "1" players
+L 08/20/2011 - 19:01:05: World triggered "Round_End"
+L 08/20/2011 - 19:01:05: "optiks<4><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:01:12: World triggered "Round_Start"
+L 08/20/2011 - 19:01:13: "optiks<4><STEAM_0:1:1653><TERRORIST>" say "lol fail"
+L 08/20/2011 - 19:01:13: "0x<2><STEAM_0:1:6302453><CT>" say "fricken shit gun!"
+L 08/20/2011 - 19:01:18: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "m4a1"
+L 08/20/2011 - 19:01:18: Team "TERRORIST" triggered "Terrorists_Win" (CT "1") (T "5")
+L 08/20/2011 - 19:01:18: Team "CT" scored "1" with "1" players
+L 08/20/2011 - 19:01:18: Team "TERRORIST" scored "5" with "1" players
+L 08/20/2011 - 19:01:18: World triggered "Round_End"
+L 08/20/2011 - 19:01:18: "optiks<4><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:01:25: World triggered "Round_Start"
+L 08/20/2011 - 19:01:26: "0x<2><STEAM_0:1:6302453><CT>" say "wtf?! lol"
+L 08/20/2011 - 19:01:35: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<4><STEAM_0:1:1653><TERRORIST>" with "m249" (headshot)
+L 08/20/2011 - 19:01:35: Team "CT" triggered "CTs_Win" (CT "2") (T "5")
+L 08/20/2011 - 19:01:35: Team "CT" scored "2" with "1" players
+L 08/20/2011 - 19:01:35: Team "TERRORIST" scored "5" with "1" players
+L 08/20/2011 - 19:01:35: World triggered "Round_End"
+L 08/20/2011 - 19:01:35: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:01:38: "0x<2><STEAM_0:1:6302453><CT>" say "lol!"
+L 08/20/2011 - 19:01:43: World triggered "Round_Start"
+L 08/20/2011 - 19:01:44: "optiks<4><STEAM_0:1:1653><TERRORIST>" say "lol how godod was my jump ver your head shot"
+L 08/20/2011 - 19:01:49: "0x<2><STEAM_0:1:6302453><CT>" say "lol"
+L 08/20/2011 - 19:02:16: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<4><STEAM_0:1:1653><TERRORIST>" with "aug"
+L 08/20/2011 - 19:02:16: Team "CT" triggered "CTs_Win" (CT "3") (T "5")
+L 08/20/2011 - 19:02:16: Team "CT" scored "3" with "1" players
+L 08/20/2011 - 19:02:16: Team "TERRORIST" scored "5" with "1" players
+L 08/20/2011 - 19:02:16: World triggered "Round_End"
+L 08/20/2011 - 19:02:16: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:02:23: World triggered "Round_Start"
+L 08/20/2011 - 19:02:29: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<4><STEAM_0:1:1653><TERRORIST>" with "sg552" (headshot)
+L 08/20/2011 - 19:02:29: Team "CT" triggered "CTs_Win" (CT "4") (T "5")
+L 08/20/2011 - 19:02:29: Team "CT" scored "4" with "1" players
+L 08/20/2011 - 19:02:29: Team "TERRORIST" scored "5" with "1" players
+L 08/20/2011 - 19:02:29: World triggered "Round_End"
+L 08/20/2011 - 19:02:29: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:02:36: World triggered "Round_Start"
+L 08/20/2011 - 19:02:49: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "ak47" (headshot)
+L 08/20/2011 - 19:02:49: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "6")
+L 08/20/2011 - 19:02:49: Team "CT" scored "4" with "1" players
+L 08/20/2011 - 19:02:49: Team "TERRORIST" scored "6" with "1" players
+L 08/20/2011 - 19:02:49: World triggered "Round_End"
+L 08/20/2011 - 19:02:49: "optiks<4><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:02:56: World triggered "Round_Start"
+L 08/20/2011 - 19:03:13: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<4><STEAM_0:1:1653><TERRORIST>" with "m4a1"
+L 08/20/2011 - 19:03:13: Team "CT" triggered "CTs_Win" (CT "5") (T "6")
+L 08/20/2011 - 19:03:13: Team "CT" scored "5" with "1" players
+L 08/20/2011 - 19:03:13: Team "TERRORIST" scored "6" with "1" players
+L 08/20/2011 - 19:03:13: World triggered "Round_End"
+L 08/20/2011 - 19:03:13: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:03:20: World triggered "Round_Start"
+L 08/20/2011 - 19:03:53: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "famas"
+L 08/20/2011 - 19:03:53: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "7")
+L 08/20/2011 - 19:03:53: Team "CT" scored "5" with "1" players
+L 08/20/2011 - 19:03:53: Team "TERRORIST" scored "7" with "1" players
+L 08/20/2011 - 19:03:53: World triggered "Round_End"
+L 08/20/2011 - 19:03:53: "optiks<4><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:04:00: World triggered "Round_Start"
+L 08/20/2011 - 19:04:37: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "galil"
+L 08/20/2011 - 19:04:37: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "8")
+L 08/20/2011 - 19:04:37: Team "CT" scored "5" with "1" players
+L 08/20/2011 - 19:04:37: Team "TERRORIST" scored "8" with "1" players
+L 08/20/2011 - 19:04:37: World triggered "Round_End"
+L 08/20/2011 - 19:04:37: "optiks<4><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:04:44: World triggered "Round_Start"
+L 08/20/2011 - 19:04:46: "optiks<4><STEAM_0:1:1653><TERRORIST>" say "lol u r SO SMALL over there... "
+L 08/20/2011 - 19:04:52: "optiks<4><STEAM_0:1:1653><TERRORIST>" say "im on 1680 res or something"
+L 08/20/2011 - 19:05:12: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<4><STEAM_0:1:1653><TERRORIST>" with "ak47"
+L 08/20/2011 - 19:05:12: Team "CT" triggered "CTs_Win" (CT "6") (T "8")
+L 08/20/2011 - 19:05:12: Team "CT" scored "6" with "1" players
+L 08/20/2011 - 19:05:12: Team "TERRORIST" scored "8" with "1" players
+L 08/20/2011 - 19:05:12: World triggered "Round_End"
+L 08/20/2011 - 19:05:12: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:05:19: World triggered "Round_Start"
+L 08/20/2011 - 19:05:35: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "scout"
+L 08/20/2011 - 19:05:35: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "9")
+L 08/20/2011 - 19:05:35: Team "CT" scored "6" with "1" players
+L 08/20/2011 - 19:05:35: Team "TERRORIST" scored "9" with "1" players
+L 08/20/2011 - 19:05:35: World triggered "Round_End"
+L 08/20/2011 - 19:05:35: "optiks<4><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:05:42: World triggered "Round_Start"
+L 08/20/2011 - 19:05:45: "optiks<4><STEAM_0:1:1653><TERRORIST>" say "put float on"
+L 08/20/2011 - 19:06:02: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "p90" (headshot)
+L 08/20/2011 - 19:06:02: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "10")
+L 08/20/2011 - 19:06:02: Team "CT" scored "6" with "1" players
+L 08/20/2011 - 19:06:02: Team "TERRORIST" scored "10" with "1" players
+L 08/20/2011 - 19:06:02: World triggered "Round_End"
+L 08/20/2011 - 19:06:02: "optiks<4><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:06:09: World triggered "Round_Start"
+L 08/20/2011 - 19:06:18: "optiks<4><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "ump45" (headshot)
+L 08/20/2011 - 19:06:18: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "11")
+L 08/20/2011 - 19:06:18: Team "CT" scored "6" with "1" players
+L 08/20/2011 - 19:06:18: Team "TERRORIST" scored "11" with "1" players
+L 08/20/2011 - 19:06:18: World triggered "Round_End"
+L 08/20/2011 - 19:06:25: World triggered "Round_Start"
+L 08/20/2011 - 19:06:39: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<4><STEAM_0:1:1653><TERRORIST>" with "famas" (headshot)
+L 08/20/2011 - 19:06:39: Team "CT" triggered "CTs_Win" (CT "7") (T "11")
+L 08/20/2011 - 19:06:39: Team "CT" scored "7" with "1" players
+L 08/20/2011 - 19:06:39: Team "TERRORIST" scored "11" with "1" players
+L 08/20/2011 - 19:06:39: World triggered "Round_End"
+L 08/20/2011 - 19:06:39: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:06:46: World triggered "Round_Start"
+L 08/20/2011 - 19:07:41: "optiks<4><STEAM_0:1:1653><TERRORIST>" disconnected (reason "optiks timed out")
+L 08/20/2011 - 19:10:08: "optiks<7><STEAM_0:1:1653><>" connected, address "14.201.129.74:27005"
+L 08/20/2011 - 19:10:08: "optiks<7><STEAM_0:1:1653><>" STEAM USERID validated
+L 08/20/2011 - 19:10:12: "optiks<7><STEAM_0:1:1653><>" entered the game
+L 08/20/2011 - 19:10:18: "optiks<7><STEAM_0:1:1653><Unassigned>" joined team "TERRORIST"
+L 08/20/2011 - 19:10:18: World triggered "Game_Commencing"
+L 08/20/2011 - 19:10:21: World triggered "Round_Start"
+L 08/20/2011 - 19:10:41: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "ump45"
+L 08/20/2011 - 19:10:41: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 08/20/2011 - 19:10:41: Team "CT" scored "0" with "1" players
+L 08/20/2011 - 19:10:41: Team "TERRORIST" scored "1" with "1" players
+L 08/20/2011 - 19:10:41: World triggered "Round_End"
+L 08/20/2011 - 19:10:41: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:10:43: "0x<2><STEAM_0:1:6302453><CT>" say "lol :P"
+L 08/20/2011 - 19:10:48: World triggered "Round_Start"
+L 08/20/2011 - 19:10:48: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "lol you hardly saw me "
+L 08/20/2011 - 19:11:02: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "mp5navy"
+L 08/20/2011 - 19:11:02: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "2")
+L 08/20/2011 - 19:11:02: Team "CT" scored "0" with "1" players
+L 08/20/2011 - 19:11:02: Team "TERRORIST" scored "2" with "1" players
+L 08/20/2011 - 19:11:02: World triggered "Round_End"
+L 08/20/2011 - 19:11:02: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:11:10: World triggered "Round_Start"
+L 08/20/2011 - 19:11:49: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "lmao UMP is not the gun for long range"
+L 08/20/2011 - 19:12:08: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<7><STEAM_0:1:1653><TERRORIST>" with "galil"
+L 08/20/2011 - 19:12:08: Team "CT" triggered "CTs_Win" (CT "1") (T "2")
+L 08/20/2011 - 19:12:08: Team "CT" scored "1" with "1" players
+L 08/20/2011 - 19:12:08: Team "TERRORIST" scored "2" with "1" players
+L 08/20/2011 - 19:12:08: World triggered "Round_End"
+L 08/20/2011 - 19:12:08: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:12:15: World triggered "Round_Start"
+L 08/20/2011 - 19:12:29: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<7><STEAM_0:1:1653><TERRORIST>" with "scout" (headshot)
+L 08/20/2011 - 19:12:29: Team "CT" triggered "CTs_Win" (CT "2") (T "2")
+L 08/20/2011 - 19:12:29: Team "CT" scored "2" with "1" players
+L 08/20/2011 - 19:12:29: Team "TERRORIST" scored "2" with "1" players
+L 08/20/2011 - 19:12:29: World triggered "Round_End"
+L 08/20/2011 - 19:12:29: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:12:36: World triggered "Round_Start"
+L 08/20/2011 - 19:12:37: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "=("
+L 08/20/2011 - 19:12:43: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<7><STEAM_0:1:1653><TERRORIST>" with "p90" (headshot)
+L 08/20/2011 - 19:12:43: Team "CT" triggered "CTs_Win" (CT "3") (T "2")
+L 08/20/2011 - 19:12:43: Team "CT" scored "3" with "1" players
+L 08/20/2011 - 19:12:43: Team "TERRORIST" scored "2" with "1" players
+L 08/20/2011 - 19:12:43: World triggered "Round_End"
+L 08/20/2011 - 19:12:43: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:12:50: World triggered "Round_Start"
+L 08/20/2011 - 19:12:52: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "what is the laser"
+L 08/20/2011 - 19:13:03: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "the buller that killed u?"
+L 08/20/2011 - 19:13:45: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "mac10" (headshot)
+L 08/20/2011 - 19:13:45: Team "TERRORIST" triggered "Terrorists_Win" (CT "3") (T "3")
+L 08/20/2011 - 19:13:45: Team "CT" scored "3" with "1" players
+L 08/20/2011 - 19:13:45: Team "TERRORIST" scored "3" with "1" players
+L 08/20/2011 - 19:13:45: World triggered "Round_End"
+L 08/20/2011 - 19:13:45: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:13:52: World triggered "Round_Start"
+L 08/20/2011 - 19:14:06: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<7><STEAM_0:1:1653><TERRORIST>" with "ump45"
+L 08/20/2011 - 19:14:06: Team "CT" triggered "CTs_Win" (CT "4") (T "3")
+L 08/20/2011 - 19:14:06: Team "CT" scored "4" with "1" players
+L 08/20/2011 - 19:14:06: Team "TERRORIST" scored "3" with "1" players
+L 08/20/2011 - 19:14:06: World triggered "Round_End"
+L 08/20/2011 - 19:14:06: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:14:13: World triggered "Round_Start"
+L 08/20/2011 - 19:14:16: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "8 hits!"
+L 08/20/2011 - 19:14:20: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "tmp"
+L 08/20/2011 - 19:14:20: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "4")
+L 08/20/2011 - 19:14:20: Team "CT" scored "4" with "1" players
+L 08/20/2011 - 19:14:20: Team "TERRORIST" scored "4" with "1" players
+L 08/20/2011 - 19:14:20: World triggered "Round_End"
+L 08/20/2011 - 19:14:20: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:14:27: World triggered "Round_Start"
+L 08/20/2011 - 19:14:40: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "xm1014"
+L 08/20/2011 - 19:14:40: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "5")
+L 08/20/2011 - 19:14:40: Team "CT" scored "4" with "1" players
+L 08/20/2011 - 19:14:40: Team "TERRORIST" scored "5" with "1" players
+L 08/20/2011 - 19:14:40: World triggered "Round_End"
+L 08/20/2011 - 19:14:40: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:14:47: World triggered "Round_Start"
+L 08/20/2011 - 19:14:51: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<7><STEAM_0:1:1653><TERRORIST>" with "mp5navy" (headshot)
+L 08/20/2011 - 19:14:51: Team "CT" triggered "CTs_Win" (CT "5") (T "5")
+L 08/20/2011 - 19:14:51: Team "CT" scored "5" with "1" players
+L 08/20/2011 - 19:14:51: Team "TERRORIST" scored "5" with "1" players
+L 08/20/2011 - 19:14:51: World triggered "Round_End"
+L 08/20/2011 - 19:14:51: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:14:58: World triggered "Round_Start"
+L 08/20/2011 - 19:14:59: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "too fast !"
+L 08/20/2011 - 19:15:14: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "m3" (headshot)
+L 08/20/2011 - 19:15:14: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "6")
+L 08/20/2011 - 19:15:14: Team "CT" scored "5" with "1" players
+L 08/20/2011 - 19:15:14: Team "TERRORIST" scored "6" with "1" players
+L 08/20/2011 - 19:15:14: World triggered "Round_End"
+L 08/20/2011 - 19:15:14: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:15:21: World triggered "Round_Start"
+L 08/20/2011 - 19:15:24: "0x<2><STEAM_0:1:6302453><CT>" say "gave you too many oppurtunities"
+L 08/20/2011 - 19:15:29: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "can u put unlimited throwing knives on?"
+L 08/20/2011 - 19:15:43: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "elite" (headshot)
+L 08/20/2011 - 19:15:43: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "7")
+L 08/20/2011 - 19:15:43: Team "CT" scored "5" with "1" players
+L 08/20/2011 - 19:15:43: Team "TERRORIST" scored "7" with "1" players
+L 08/20/2011 - 19:15:43: World triggered "Round_End"
+L 08/20/2011 - 19:15:43: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:15:50: World triggered "Round_Start"
+L 08/20/2011 - 19:15:51: "0x<2><STEAM_0:1:6302453><CT>" say "what hp were you on?"
+L 08/20/2011 - 19:15:57: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "about 30 i think"
+L 08/20/2011 - 19:16:12: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "fiveseven"
+L 08/20/2011 - 19:16:12: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "8")
+L 08/20/2011 - 19:16:12: Team "CT" scored "5" with "1" players
+L 08/20/2011 - 19:16:12: Team "TERRORIST" scored "8" with "1" players
+L 08/20/2011 - 19:16:12: World triggered "Round_End"
+L 08/20/2011 - 19:16:12: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:16:19: World triggered "Round_Start"
+L 08/20/2011 - 19:17:17: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "deagle"
+L 08/20/2011 - 19:17:17: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "9")
+L 08/20/2011 - 19:17:17: Team "CT" scored "5" with "1" players
+L 08/20/2011 - 19:17:17: Team "TERRORIST" scored "9" with "1" players
+L 08/20/2011 - 19:17:17: World triggered "Round_End"
+L 08/20/2011 - 19:17:17: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:17:24: World triggered "Round_Start"
+L 08/20/2011 - 19:17:28: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "put unlimited knives + floating"
+L 08/20/2011 - 19:18:10: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "p228" (headshot)
+L 08/20/2011 - 19:18:10: Team "TERRORIST" triggered "Terrorists_Win" (CT "5") (T "10")
+L 08/20/2011 - 19:18:10: Team "CT" scored "5" with "1" players
+L 08/20/2011 - 19:18:10: Team "TERRORIST" scored "10" with "1" players
+L 08/20/2011 - 19:18:10: World triggered "Round_End"
+L 08/20/2011 - 19:18:10: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:18:13: "0x<2><STEAM_0:1:6302453><CT>" say "hahah!"
+L 08/20/2011 - 19:18:17: World triggered "Round_Start"
+L 08/20/2011 - 19:18:21: "0x<2><STEAM_0:1:6302453><CT>" say "haha, ok, i have to go eat dinner :P"
+L 08/20/2011 - 19:18:28: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "ok gg"
+L 08/20/2011 - 19:18:37: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<7><STEAM_0:1:1653><TERRORIST>" with "mac10" (headshot)
+L 08/20/2011 - 19:18:37: Team "CT" triggered "CTs_Win" (CT "6") (T "10")
+L 08/20/2011 - 19:18:37: Team "CT" scored "6" with "1" players
+L 08/20/2011 - 19:18:37: Team "TERRORIST" scored "10" with "1" players
+L 08/20/2011 - 19:18:37: World triggered "Round_End"
+L 08/20/2011 - 19:18:37: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:18:41: "0x<2><STEAM_0:1:6302453><CT>" say "1 HP!"
+L 08/20/2011 - 19:18:44: World triggered "Round_Start"
+L 08/20/2011 - 19:18:45: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "bastard!"
+L 08/20/2011 - 19:18:48: "0x<2><STEAM_0:1:6302453><CT>" say "haha!"
+L 08/20/2011 - 19:18:56: "0x<2><STEAM_0:1:6302453><CT>" say "when your out, browse to that hostname/ip"
+L 08/20/2011 - 19:19:01: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<7><STEAM_0:1:1653><TERRORIST>" with "tmp"
+L 08/20/2011 - 19:19:01: Team "CT" triggered "CTs_Win" (CT "7") (T "10")
+L 08/20/2011 - 19:19:01: Team "CT" scored "7" with "1" players
+L 08/20/2011 - 19:19:01: Team "TERRORIST" scored "10" with "1" players
+L 08/20/2011 - 19:19:01: World triggered "Round_End"
+L 08/20/2011 - 19:19:01: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:19:08: World triggered "Round_Start"
+L 08/20/2011 - 19:19:11: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "ok"
+L 08/20/2011 - 19:19:19: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<7><STEAM_0:1:1653><TERRORIST>" with "xm1014" (headshot)
+L 08/20/2011 - 19:19:19: Team "CT" triggered "CTs_Win" (CT "8") (T "10")
+L 08/20/2011 - 19:19:19: Team "CT" scored "8" with "1" players
+L 08/20/2011 - 19:19:19: Team "TERRORIST" scored "10" with "1" players
+L 08/20/2011 - 19:19:19: World triggered "Round_End"
+L 08/20/2011 - 19:19:19: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:19:22: "0x<2><STEAM_0:1:6302453><CT>" say "lol :P"
+L 08/20/2011 - 19:19:26: World triggered "Round_Start"
+L 08/20/2011 - 19:19:26: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "sif shoot me !"
+L 08/20/2011 - 19:19:33: "0x<2><STEAM_0:1:6302453><CT>" say "knife round?"
+L 08/20/2011 - 19:19:38: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<7><STEAM_0:1:1653><TERRORIST>" with "knife"
+L 08/20/2011 - 19:19:38: Team "CT" triggered "CTs_Win" (CT "9") (T "10")
+L 08/20/2011 - 19:19:38: Team "CT" scored "9" with "1" players
+L 08/20/2011 - 19:19:38: Team "TERRORIST" scored "10" with "1" players
+L 08/20/2011 - 19:19:38: World triggered "Round_End"
+L 08/20/2011 - 19:19:38: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_leveldown"
+L 08/20/2011 - 19:19:38: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_knife_steal"
+L 08/20/2011 - 19:19:38: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:19:45: World triggered "Round_Start"
+L 08/20/2011 - 19:19:45: "optiks<7><STEAM_0:1:1653><TERRORIST>" say "ok knife "
+L 08/20/2011 - 19:19:46: "0x<2><STEAM_0:1:6302453><CT>" say "another knife round?"
+L 08/20/2011 - 19:20:05: "0x<2><STEAM_0:1:6302453><CT>" killed "optiks<7><STEAM_0:1:1653><TERRORIST>" with "knife"
+L 08/20/2011 - 19:20:05: Team "CT" triggered "CTs_Win" (CT "10") (T "10")
+L 08/20/2011 - 19:20:05: Team "CT" scored "10" with "1" players
+L 08/20/2011 - 19:20:05: Team "TERRORIST" scored "10" with "1" players
+L 08/20/2011 - 19:20:05: World triggered "Round_End"
+L 08/20/2011 - 19:20:05: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_leveldown"
+L 08/20/2011 - 19:20:05: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_knife_steal"
+L 08/20/2011 - 19:20:05: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_levelup"
+L 08/20/2011 - 19:20:12: World triggered "Round_Start"
+L 08/20/2011 - 19:20:12: "0x<2><STEAM_0:1:6302453><CT>" say "another? then ill go! :P"
+L 08/20/2011 - 19:20:42: "optiks<7><STEAM_0:1:1653><TERRORIST>" killed "0x<2><STEAM_0:1:6302453><CT>" with "knife"
+L 08/20/2011 - 19:20:42: Team "TERRORIST" triggered "Terrorists_Win" (CT "10") (T "11")
+L 08/20/2011 - 19:20:42: Team "CT" scored "10" with "1" players
+L 08/20/2011 - 19:20:42: Team "TERRORIST" scored "11" with "1" players
+L 08/20/2011 - 19:20:42: World triggered "Round_End"
+L 08/20/2011 - 19:20:42: "0x<2><STEAM_0:1:6302453><CT>" triggered "gg_leveldown"
+L 08/20/2011 - 19:20:42: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_knife_steal"
+L 08/20/2011 - 19:20:42: "optiks<7><STEAM_0:1:1653><TERRORIST>" triggered "gg_levelup"
+L 08/20/2011 - 19:20:45: "0x<2><STEAM_0:1:6302453><CT>" say "haha, nice one"
+L 08/20/2011 - 19:20:49: World triggered "Round_Start"
+L 08/20/2011 - 19:20:50: "0x<2><STEAM_0:1:6302453><CT>" say "haha, nice one, ok, cya"
+L 08/20/2011 - 19:20:57: "0x<2><STEAM_0:1:6302453><CT>" disconnected (reason "Disconnect by user.")
+L 08/20/2011 - 19:21:08: "optiks<7><STEAM_0:1:1653><TERRORIST>" disconnected (reason "Disconnect by user.")
+L 08/20/2011 - 19:21:08: World triggered "Round_Draw" (CT "10") (T "11")
+L 08/20/2011 - 19:21:08: Team "CT" scored "10" with "0" players
+L 08/20/2011 - 19:21:08: Team "TERRORIST" scored "11" with "0" players
+L 08/20/2011 - 19:21:08: World triggered "Round_End"
+L 08/20/2011 - 19:21:15: World triggered "Round_Start"
+L 08/20/2011 - 20:32:39: [META] Loaded 0 plugins (1 already loaded)
+L 08/20/2011 - 20:32:39: server_message: "quit"
+L 08/20/2011 - 20:32:39: Log file closed
