@@ -8,10 +8,16 @@
 require 'sinatra'
 require 'sqlite3'
 
-# When browsing to the root url, start the daemon first
+
+# ------------------------------------------------------------------------------
+#  Root URL
+# ------------------------------------------------------------------------------
+
+# When browsing to the root url, go straight to the scoreboard
 get '/' do
-  redirect to('/daemon/init')
+  redirect to('/scores')
 end
+
 
 # ------------------------------------------------------------------------------
 #  The Scoreboard
@@ -42,30 +48,6 @@ get '/scores' do
   haml :scores, :layout => (request.xhr? ? false : :layout)
 end
 
-# ------------------------------------------------------------------------------
-#  Daemon Control
-# ------------------------------------------------------------------------------
-
-daemon = "daemon.rb"
-
-# The user can control the daemon from here
-get '/daemon' do
-  @result = `ruby #{daemon} status`
-  @title = "Daemon Control"
-  haml :daemon
-end
-
-# When the app starts up '/' should redirect to this
-get '/daemon/init' do
-  @result = `ruby #{daemon} start`
-  redirect to('/scores')
-end
-
-# This handles executing the daemons actions
-get '/daemon/:action' do
-  @result = `ruby #{daemon} #{params[:action]}`
-  redirect to('/daemon')
-end
 
 # ------------------------------------------------------------------------------
 #  Other

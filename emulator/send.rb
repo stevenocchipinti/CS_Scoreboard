@@ -1,7 +1,7 @@
 require 'socket'
 
 # Configuration
-udphost = "127.0.0.1"
+udphost = "srcds"
 udpport = 1234
 udpflags = 0
 file = "test.log"
@@ -14,6 +14,7 @@ begin
     file = File.new(file, "r")
     while (line = file.gets)
       sock.send(line, udpflags, udphost, udpport)
+      sleep 1
     end
     file.close
 rescue => err

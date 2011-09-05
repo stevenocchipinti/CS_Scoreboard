@@ -19,7 +19,7 @@ class CSScoreboard < DaemonSpawn::Base
 
   def start(args)
     # Start the Sinatra app
-    exec "bundle exec ruby scoreboard.rb"
+    exec "foreman start"
   end
 
   def stop
