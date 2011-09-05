@@ -8,3 +8,6 @@ gem 'sass'
 gem 'sqlite3'
 gem 'daemon-spawn'
 gem 'bluecloth'
+
+gem 'dm-sqlite-adapter'
+gem 'datamapper'

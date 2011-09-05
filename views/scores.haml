@@ -4,11 +4,11 @@
     %th Kills
     %th Headshots
 
-  - @stats.each do |row|
+  - @stats.each do |stat|
     %tr
-      %td.first= row["killer"]
-      %td= row["kills"]
-      %td= row["headshots"]
+      %td.first= stat.killer
+      -#%td= row["kills"]
+      -#%td= row["headshots"]
 
   %tr
     %td.timestamp(colspan="3")= "Last updated: #{Time.now.to_s}"
